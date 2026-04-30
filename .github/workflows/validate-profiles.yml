@@ -1,0 +1,15 @@
+name: Validate profiles
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate profile JSON
+        run: python3 scripts/validate_profiles.py
+
