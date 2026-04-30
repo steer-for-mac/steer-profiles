@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "name": "Safari",
+    "bundleIDs": ["com.apple.Safari"],
+    "layers": [
+      {
+        "bindings": {
+          "triangle": { "tap": { "type": "key", "keycode": 17, "modifiers": 1048576 } },
+          "circle":   { "tap": { "type": "key", "keycode": 13, "modifiers": 1048576 } },
+          "square":   { "tap": { "type": "key", "keycode": 17, "modifiers": 1179648 } },
+          "cross":    { "tap": { "type": "space" } },
+          "l1":       { "tap": { "type": "key", "keycode": 33, "modifiers": 1048576 } },
+          "r1":       { "tap": { "type": "key", "keycode": 30, "modifiers": 1048576 } }
+        }
+      },
+      {}, {}, {}, {}, {}
+    ]
+  }
+}

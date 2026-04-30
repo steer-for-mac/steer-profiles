@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "name": "Spotify",
+    "bundleIDs": ["com.spotify.client"],
+    "layers": [
+      {
+        "bindings": {
+          "cross": { "tap": { "type": "mediaPlayPause" } },
+          "l1":    { "tap": { "type": "mediaPrev" } },
+          "r1":    { "tap": { "type": "mediaNext" } }
+        }
+      },
+      {}, {}, {}, {}, {}
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "name": "Xcode",
+    "bundleIDs": ["com.apple.dt.Xcode"],
+    "layers": [
+      {
+        "bindings": {
+          "cross":    { "tap": { "type": "key", "keycode": 15, "modifiers": 1048576 } },
+          "square":   { "tap": { "type": "key", "keycode": 11, "modifiers": 1048576 } },
+          "triangle": { "tap": { "type": "key", "keycode": 47, "modifiers": 1048576 } },
+          "circle":   { "tap": { "type": "key", "keycode": 44, "modifiers": 1048576 } },
+          "l1":       { "tap": { "type": "key", "keycode": 123, "modifiers": 1310720 } },
+          "r1":       { "tap": { "type": "key", "keycode": 124, "modifiers": 1310720 } }
+        }
+      },
+      {}, {}, {}, {}, {}
+    ]
+  }
+}
